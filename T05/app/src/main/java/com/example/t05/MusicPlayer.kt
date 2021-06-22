@@ -9,7 +9,7 @@ import java.io.IOException
 
 class MusicPlayer(val musicService: MusicService): MediaPlayer.OnCompletionListener {
 
-    val MUSICPATH = arrayOf("http://people.cs.vt.edu/~shuoniu/mario.mp3", "http://people.cs.vt.edu/~shuoniu/tetris.mp3")
+    val MUSICPATH = arrayOf("http://people.cs.vt.edu/~esakia/mario.mp3", "http://people.cs.vt.edu/~esakia/tetris.mp3")
 
     val MUSICNAME = arrayOf("Super Mario", "Tetris")
 
